@@ -74,11 +74,12 @@ header {
 
 @media screen and (max-width: 600px) {
 	header {
-			height: 90vh;
+			height: 100%;
 		}
 	
 	.header__socials,
-	.scroll__down {
+	.scroll__down,
+	.me {
 		display: none;
 	}
 }
