@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: YT,
     title: "Youtube",
-    subtitle: "React / Next.js / Sanity",
+    subtitle: "React / RapidAPI",
     github: "https://github.com/wanderfulife/Yt",
     demo: "https://deploy-yt.herokuapp.com/"
   },
