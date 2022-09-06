@@ -94,6 +94,13 @@ function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+             <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Heroku</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
