@@ -1,19 +1,20 @@
 import React from 'react'
 import './portofolio.css'
 import NFT from "../../assets/nft.webp";
-import TWEET from "../../assets/twitter.webp";
 import TINDER from "../../assets/tinder.webp";
+import YT from "../../assets/yt.webp";
+
 
 
 
 const data = [
   {
     id: 1,
-    image: TWEET,
-    title: "Twitter",
+    image: YT,
+    title: "Youtube",
     subtitle: "React / Next.js / Sanity",
-    github: "https://github.com/wanderfulife/Twitter",
-    demo: "https://twitter.com/home"
+    github: "https://github.com/wanderfulife/Yt",
+    demo: "https://deploy-yt.herokuapp.com/"
   },
   {
     id: 2,
