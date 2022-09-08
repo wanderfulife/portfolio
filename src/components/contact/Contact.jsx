@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
+import {  RiWhatsappLine } from "react-icons/ri";
 import emailjs from "emailjs-com";
 
 function Contact() {
@@ -40,13 +40,6 @@ function Contact() {
             <h4>Email</h4>
             <h5>jnt.wdr@gmail.com</h5>
             <a href="mailto:jnt.wdr@gmail.com" target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <a href="https://m.me/Jonathanwdr" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
