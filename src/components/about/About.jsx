@@ -24,11 +24,17 @@ function About() {
               <small>3+ Years Coding</small>
             </article>
 
+            <a
+              href="https://www.codecademy.com/users/Jonathanwander/achievements"
+              target="_blank"
+              rel="noreferrer"
+            >
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>40+ completed</small>
             </article>
+            </a>
           </div>
 
           <p>

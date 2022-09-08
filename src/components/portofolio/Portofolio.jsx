@@ -23,17 +23,16 @@ const data = [
     subtitle: "React / Solidity",
     github: "https://github.com/wanderfulife/NFTCollectible",
     demo: "https://thesquirrelz.herokuapp.com/"
-  },
-  {
-    id: 3,
-    image: TINDER,
-    title: "Tinder",
-    subtitle: "React Native / Firebase",
-    github: "https://github.com/wanderfulife/MPV2",
-    demo: "https://github.com/wanderfulife/MPV2"
   }
+
   
 ];
+
+const image = TINDER
+const title= "More Pay"
+const subtitle= "React Native / Firebase"
+const github= "https://github.com/wanderfulife/MPV2"
+
 
 
 function Portofolio() {
@@ -62,8 +61,24 @@ function Portofolio() {
                 Live Demo
               </a>
             </div>
-          </article>;
+          </article>
       })}
+      <article className="portofolio__item">
+            <div className="portofolio__item-image">
+              <img src={image} alt={title} />
+            </div>
+            <h3>
+              {title}
+            </h3>
+            <small className="text-light">
+              {subtitle}
+            </small>
+            <div className="portofolio__items-cta">
+              <a href={github} className="btn" target="_blank" rel="noreferrer">
+                Github
+              </a>
+            </div>
+          </article>
       </div>
     </section>;
 }
