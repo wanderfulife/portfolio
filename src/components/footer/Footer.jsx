@@ -36,10 +36,6 @@ function Footer() {
           <BsTwitter/>
         </a>
     </div>
-    
-    <div className="footer__copyright">
-      <small>&copy; Jonathan Wander. All rights reserved.</small>
-    </div>
     </footer>;
 }
 
