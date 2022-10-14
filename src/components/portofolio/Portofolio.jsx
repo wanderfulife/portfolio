@@ -2,7 +2,7 @@ import React from 'react'
 import './portofolio.css'
 import NFT from "../../assets/nft.webp";
 import TINDER from "../../assets/tinder.webp";
-import YT from "../../assets/yt.webp";
+import NTFLX from "../../assets/netflix-ptflio.webp";
 
 
 
@@ -10,11 +10,11 @@ import YT from "../../assets/yt.webp";
 const data = [
   {
     id: 1,
-    image: YT,
-    title: "Youtube",
-    subtitle: "React / RapidAPI",
-    github: "https://github.com/wanderfulife/Yt",
-    demo: "https://deploy-yt.herokuapp.com/"
+    image: NTFLX,
+    title: "Netflix",
+    subtitle: "React / Firebase / Redux / axios",
+    github: "https://github.com/wanderfulife/netflix-clone",
+    demo: "https://netflix-2f31d.firebaseapp.com/"
   },
   {
     id: 2,
